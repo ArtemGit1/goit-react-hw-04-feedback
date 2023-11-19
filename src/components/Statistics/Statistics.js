@@ -2,12 +2,11 @@ import React from 'react';
 
 const Statistics = ({ good, neutral, bad, total, positivePercentage }) => (
   <div>
-    <h2>Статистика:</h2>
-    <p>Добре: {good}</p>
-    <p>Нейтрально: {neutral}</p>
-    <p>Погано: {bad}</p>
-    <p>Загально відгуків: {total}</p>
-    <p>Відсоток позитивних відгуків: {positivePercentage}%</p>
+    <p>Good: {good}</p>
+    <p>Neutral: {neutral}</p>
+    <p>Bad: {bad}</p>
+    <p>Total: {total}</p>
+    <p>Positive feedback: {positivePercentage.toFixed(2)}%</p>
   </div>
 );
 

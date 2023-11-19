@@ -1,10 +1,10 @@
 import React from 'react';
 
 const Section = ({ title, children }) => (
-  <section>
+  <div>
     <h2>{title}</h2>
     {children}
-  </section>
+  </div>
 );
 
 export default Section;
